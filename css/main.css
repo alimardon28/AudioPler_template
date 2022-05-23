@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
+    min-width: none;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper_music {
+    width:300px;
+    height:60vh;
+    margin: 5rem auto;
+    background-color: #fff;
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wrapper_music .img_nusic {
+    width: 170px;
+    height: 170px;
+    border-radius: 15px;
+    margin-top: 4rem;
+}
+
+.wrapper_music .artist {
+    margin: 22px 0px;
+    padding: 0;
+    text-shadow: 4px 4px 10px rgba(243, 250, 26, 0.267);
+}
+
+.controller {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    padding: 10px;
+}
+
+#input_range {
+    width: 60%;
+}
+
+.controller_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 3rem;
+    font-size: 30px;
+}
+
+.prev:active {
+    background-color: #fff;
+}
+
+.play:active {
+    background-color: #fff;
+}
+
+.next:active {
+    background-color: #fff;
+}
