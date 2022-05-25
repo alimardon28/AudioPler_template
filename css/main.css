@@ -25,7 +25,6 @@ body {
 
 .wrapper_music {
     width: 300px;
-    height: 60vh;
     margin: 5rem auto;
     background-color: #fff;
     backdrop-filter: blur(5px);
@@ -33,7 +32,6 @@ body {
     align-items: center;
     flex-direction: column;
     position: relative;
-    top: 5rem;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -69,7 +67,7 @@ body {
     justify-content: space-around;
     width: 80%;
     margin-top: 3rem;
-    font-size: 30px;
+    font-size: 36px;
 }
 
 .prev:active {
