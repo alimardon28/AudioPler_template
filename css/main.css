@@ -24,8 +24,8 @@ body {
 }
 
 .wrapper_music {
-    width:300px;
-    height:60vh;
+    width: 300px;
+    height: 60vh;
     margin: 5rem auto;
     background-color: #fff;
     backdrop-filter: blur(5px);
@@ -82,4 +82,11 @@ body {
 
 .next:active {
     background-color: #fff;
+}
+
+#vol {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 32%;
+    right: -30px;
 }
